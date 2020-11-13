@@ -12,3 +12,7 @@ Color gray = Color(0xffBFBFBF);
 TextStyle montserrat = GoogleFonts.montserrat(fontWeight: FontWeight.w500);
 TextStyle blackMontserrat = montserrat.copyWith(color: black);
 TextStyle grayMontserrat = montserrat.copyWith(color: gray);
+
+ThemeData lightTheme = ThemeData(
+  backgroundColor: whiteBone,
+);
