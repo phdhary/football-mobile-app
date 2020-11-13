@@ -5,6 +5,7 @@ class CustomAppbar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -26,14 +27,17 @@ class CustomAppbar extends StatelessWidget {
             ],
           ),
           SizedBox(height: 35),
-          Text(
-            "Top today's match for you",
-            overflow: TextOverflow.clip,
-            style: blackMontserrat.copyWith(
-              fontWeight: FontWeight.w700,
-              fontSize: 32,
+          SizedBox(
+            width: Get.width * 0.6,
+            child: Text(
+              "Top today's match for you",
+              overflow: TextOverflow.clip,
+              style: blackMontserrat.copyWith(
+                fontWeight: FontWeight.w700,
+                fontSize: 32,
+              ),
             ),
-          )
+          ),
         ],
       ),
     );

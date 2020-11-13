@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:football_app/shared/shared.dart';
-import 'package:get/get.dart';
+import 'package:football_app/view/widget/widget.dart';
 
-part 'custom_appbar.dart';
+part 'home_page.dart';
